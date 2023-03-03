@@ -1,0 +1,52 @@
+.header {
+  padding-top: 50px;
+
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+		&__img {
+      margin-right: 8px;
+		}
+
+		&__text {
+      @include fw500;
+      font-size: 26px;
+      line-height: 31px;  
+      color: $textColor;
+
+		}
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+		&__item {
+      @include mp0;
+      @include lst;
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
+		}
+
+		&__link {
+      @include fw500;
+      color: $textColor;
+      font-size: 14px;
+      line-height: 18px;
+      transition: color 0.8s;
+      &:hover {
+        color: $accent;
+      }
+		}
+}
+.header-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+		&__btn {
+      color: $whiteText;
+      padding: 12px 22px;
+      border-radius: 4px;
+      background-color: $accent;
+		}
+}
