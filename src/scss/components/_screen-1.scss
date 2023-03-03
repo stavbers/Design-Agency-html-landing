@@ -1,0 +1,42 @@
+.screen-1 {
+padding-top: 140px;
+
+  &__title {
+    @include mp0;
+    @include fw500;
+    font-size: 72px;
+    line-height: 85px;
+  }
+
+  &__descr {
+    @include mp0;
+    @include fw400;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__link {
+    color: $whiteText;
+    background-color: $accent;
+    padding: 12px 28px;
+    border-radius: 4px;
+  }
+
+  &__img {
+  }
+}
+
+.screen-1-info {
+
+}
+.screen-1-image {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.col {
+  padding: 0;
+}
