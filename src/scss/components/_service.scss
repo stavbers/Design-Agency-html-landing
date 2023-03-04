@@ -1,0 +1,38 @@
+.service {
+
+  &__title {
+    @include mp0;
+    text-align: center;
+  }
+
+  &__image {
+  }
+
+  &__img {
+  }
+
+  &__subtitle {
+    @include mp0;
+  }
+
+  &__descr {
+    @include mp0;
+  }
+
+  &__link {
+  }
+}
+.container {
+  max-width: 1170px;
+}
+.row {
+}
+.service-wrp {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.service-item {
+}
