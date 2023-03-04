@@ -42,7 +42,8 @@
 .header-contacts {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    margin-right: -30%;
 		&__btn {
       color: $whiteText;
       padding: 12px 22px;
@@ -50,3 +51,6 @@
       background-color: $accent;
 		}
 }
+.container {
+   max-width: 1170px;
+ }
