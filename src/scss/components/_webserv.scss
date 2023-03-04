@@ -1,0 +1,89 @@
+.webserv {
+padding-top: 100px;
+padding-bottom: 50px;
+  &__title {
+    @include mp0;
+    @include fw700;
+    text-align: center;
+    font-size: 40px;
+    line-height: 52px;
+    color: #3D3D3F;
+    padding-bottom: 80px;
+  }
+
+  &__item {
+  }
+
+  &__image {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    &--green{
+      background-color: #79E28A;
+    }
+    &--blue{
+      background-color: #60DAFF;
+    }
+    &--red {
+      background-color: #F37168;
+    }
+
+  }
+
+  &__img {
+    position: absolute;
+    &--1{
+      width: 28px;
+      height: 45px;
+      top: 30%;
+      left: 36%;
+    }
+    &--2{
+      width: 46px;
+      height: 40px;
+      top: 30%;
+      left: 28%;
+    }
+    &--3{
+      width: 46px;
+      height: 45px;
+      top: 30%;
+      left: 29%;
+    }
+  }
+
+  &__descr {
+    @include mp0;
+    @include fw400;
+    margin-top: 12px;
+   color: #3D3D3F;
+   font-size: 22px;
+   line-height: 32px;
+  }
+}
+.container {
+  max-width: 1170px;
+}
+
+
+.webserv-list {
+  @include mp0;
+  @include lst;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.webserv-count {
+  text-align: center;
+  margin-top: 23px;
+
+  &__elem {
+    @include fw700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #3D3D3F;
+
+  }
+}
