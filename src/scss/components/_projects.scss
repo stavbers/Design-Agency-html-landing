@@ -1,0 +1,38 @@
+.projects {
+padding-top: 70px;
+  &__title {
+    @include mp0;
+    @include fw700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 55px;
+    text-align: center;
+  }
+}
+.container {
+  max-width: 1170px;
+}
+
+.projects-item {
+
+  &__image {
+    max-width: 400px;
+    max-height: 300px;
+    margin-right: 20px;
+  }
+
+  &__img {
+  }
+
+  &__descr {
+    @include mp0;
+    @include fw500; 
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: $textColor;
+    font-size: 18px;
+    line-height: 26px;
+
+  }
+}
