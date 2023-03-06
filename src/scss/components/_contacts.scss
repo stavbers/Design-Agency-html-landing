@@ -1,0 +1,72 @@
+.contacts {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: $textColor;
+
+  &__title {
+    @include fw700;
+    @include mp0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 55px;
+  }
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.contacts-wrp {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.contacts-form {
+
+  & label {
+    @include fw500;
+    font-size: 18px;
+    line-height: 23px;
+    display: block;
+    text-transform: uppercase;
+
+  }
+  & input {
+    width: 250px;
+    margin-right: 20px;
+    border: none;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+  }
+
+  &__middle {
+    display: flex;
+    align-items: center;
+  }
+
+  &__write {
+    display: block;
+    & textarea {
+      max-width: 95%;
+      min-width: 94%;
+      min-height: 50px;
+      max-height: 150px;
+      border: none;
+    }
+  }
+
+  &__subm {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: $whiteText;
+    text-transform: uppercase;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba($color: #F35F2FBF, $alpha: .8);
+  }
+}
