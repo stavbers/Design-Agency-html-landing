@@ -1,6 +1,11 @@
 .screen-1 {
 padding-top: 100px;
 
+&__wrp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
   &__title {
     @include mp0;
     @include fw500;
@@ -29,7 +34,7 @@ padding-top: 100px;
 }
 
 .screen-1-info {
-
+max-width: 500px;
 }
 .screen-1-image {
   display: flex;
