@@ -1,6 +1,10 @@
 .header {
   padding-top: 50px;
-
+   &-wrp {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
 }
 .header-logo {
     display: flex;
@@ -43,7 +47,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: -30%;
 		&__btn {
       color: $whiteText;
       padding: 12px 22px;
@@ -51,9 +54,6 @@
       background-color: $accent;
 		}
 }
-.container {
-   // max-width: 1170px;
- }
 
  /* lg-размер (<=1199px) */
 @media (max-width: 1200px) {
