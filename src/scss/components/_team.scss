@@ -1,4 +1,9 @@
 .team {
+&-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
   padding-bottom: 100px;
   color: $textColor;
   &__title {
