@@ -1,6 +1,12 @@
 .projects {
 padding-top: 70px;
 padding-bottom: 70px;
+
+&-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
   &__title {
     @include mp0;
     @include fw700;
