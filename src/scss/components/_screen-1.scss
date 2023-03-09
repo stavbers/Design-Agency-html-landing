@@ -3,7 +3,7 @@ padding-top: 100px;
 
 &__wrp {
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   justify-content: space-between;
 }
   &__title {
@@ -42,9 +42,72 @@ max-width: 500px;
   justify-content: end;
 }
 
-.col {
-  padding: 0;
+
+@media (max-width: 1156px) {
+
 }
-.container {
-  // max-width: 1170px;
+@media (max-width: 1100px) {
+  .screen-1__wrp {
+    align-items: center;
+  }
+  .screen-1__title {
+    font-size: 55px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .screen-1__title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .screen-1__descr {
+    margin-top: 22px;
+    margin-bottom: 32px;
+  }
+  .screen-1-info {
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 780px) {
+  .screen-1__wrp {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .screen-1-info {
+    max-width: 100%;
+  }
+  .screen-1__title {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .screen-1__descr {
+    margin-top: 22px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .screen-1__link {
+    display: block;
+    margin: 0 auto;
+    max-width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .screen-1__img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 90%;
+  }
+}
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
 }
