@@ -63,11 +63,7 @@ color: $textColor;
     }
   }
 }
-.container {
-  // max-width: 1170px;
-}
-.row {
-}
+
 .service-wrp {
   padding: 0;
   display: flex;
@@ -76,4 +72,29 @@ color: $textColor;
   text-align: center;
 }
 .service-item {
+}
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  .service-item {
+    margin-right: 15px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  .service-wrp {
+    align-items: flex-start;
+  }
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  /* CSS для ширины до 575px (включительно) */
 }
