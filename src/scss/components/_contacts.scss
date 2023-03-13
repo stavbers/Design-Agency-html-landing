@@ -74,3 +74,51 @@
     background-color: rgba($color: #F35F2FBF, $alpha: .8);
   }
 }
+
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+}
+
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  .contacts__title {
+    margin-bottom: 30px;
+  }
+  .contacts-form__top {
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contacts-form__middle {
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contacts-form__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contacts-form__write textarea {
+    min-width: 250px;
+    height: 85px;
+    margin-left: -23px;
+  }
+  .contacts-form label {
+    margin-bottom: 10px;
+  }
+  .contacts-form input {
+    margin-bottom: 5px;
+  }
+}
