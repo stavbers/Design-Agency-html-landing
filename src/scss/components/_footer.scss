@@ -123,3 +123,64 @@ margin-right: 50px;
     @include mp0;
   }
 }
+@media (max-width: 1199px) {
+  /* CSS для ширины от 992px до 1199px */
+}
+
+/* md-размер (<=991px) */
+@media (max-width: 991px) {
+  /* CSS для ширины от 768px до 991px */
+}
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  .footer-wrp {
+    flex-wrap: wrap;
+  }
+  .footer-menu {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .footer-wrp {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .header-logo {
+      padding-left: 38px;
+    }
+  }
+  .footer-logo {
+    padding-left: 65px;
+    text-align: center;
+  }
+  .footer-action {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-action {
+    margin-bottom: 8px;
+  }
+}
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+  .footer-logo {
+    padding-left: 20px;
+  }
+  .footer-botm {
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-bottom__info {
+    margin-bottom: 30px;
+  }
+  .footer-action {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  .footer-botm__list {
+    padding-left: 45px;
+  }
+}
